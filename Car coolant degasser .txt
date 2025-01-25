@@ -1,0 +1,5 @@
+﻿Khanna, A ; Muthukumar, N
+Ultrasonic Device for Rapid Air Bubble Removal in Automotive Coolant Systems
+
+
+The efficiency and longevity of automotive engines are heavily influenced by the proper operation of cooling systems, which can be compromised by the presence of air bubbles. Traditional methods of removing air bubbles, such as system bleeding, are time-consuming and often ineffective. This project introduces an ultrasonic device designed to rapidly and efficiently eliminate air bubbles from automotive coolant systems. Using a 555 timer chip to convert DC current to AC, the device powers an ultrasonic transducer that emits sound waves to promote cavitation and displacement within the coolant system. Preliminary tests show that this ultrasonic method is faster and more efficient than conventional techniques while ensuring compatibility with existing automotive systems. The device improves engine efficiency by enhancing coolant flow and reducing the risk of overheating due to trapped air. Potential applications include faster maintenance, reduced labor costs, and enhanced system performance.
