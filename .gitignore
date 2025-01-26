@@ -1,3 +1,6 @@
+*.idx
+*.toc
+*.npc
 *.log
 *.aux
 *.synctex.gz
