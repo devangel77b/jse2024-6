@@ -1,0 +1,124 @@
+\documentclass[letterpaper,11pt,twoside,electronic,headers=exceptpdf,papers=countpages,linkcolor=blue,urlcolor=blue]{confproc}
+
+\renewcommand{\procpdfauthor}{Dennis Evangelista, Manalapan High School}
+\renewcommand{\procpdftitle}{Journal of Science \& Engineering}
+\renewcommand{\procchead}{}
+\renewcommand{\proclhead}{}
+\renewcommand{\proccfoot}{\thepage}
+
+\author{\procpdfauthor}
+\title{\procpdftitle}
+\date{January xx, 2025}
+\renewcommand{\PAPERPATH}{.}
+
+\makeindex
+
+\usepackage{pdfpages}
+\usepackage{helvet,mathptmx}
+\renewcommand{\contentsname}{{\normalfont\sffamily Journal of\medskip}\\{\normalfont\Huge Science \& Engineering}}
+\usepackage{verse}
+
+\begin{document}
+\frontmatter
+\setcounter{page}{1}
+\pdfbookmark[0]{Preamble}{preamble}
+\pdfbookmark[1]{Cover}{cover}
+%\maketitle
+\index{Name Here}\includepdf[pages=1]{cover}
+\newpage
+\input{masthead.tex}
+\otherpagestyle
+\makeatletter
+\addtocontents{toc}{Volume 1, Number 3, \@date\bigskip\\}
+\makeatother
+\tableofcontents
+\addtocontents{toc}{\emph{From the cover:}% 
+Cover blurb text here.% 
+\emph{Cover image: Name Here.}\bigskip\\}
+
+
+
+
+% Haiku here
+\input{insidejse.tex}
+
+
+
+\mainmatter
+\setcounter{page}{59}
+\procpaper[%
+title={Testing conservation of energy in a nonideal crossbow system},
+author={Miguel Arenas, Callie Butash, Jake Chin, Ethan Fuks, Edmund Lee, Kriti Malhotra, Grace Nealon, and Petra Rofman},
+index={\index{Arenas, Miguel}\index{Butash, Callie}\index{Chin, Jake}\index{Fuks, Ethan}\index{Lee, Edmund}\index{Malhotra, Kriti}\index{Nealon, Grace}\index{Rofman, Petra}},
+]{/arenas/arenas}
+
+\procpaper[%
+title={Investigating energy transformation: elastic potential energy to kinetic energy in a crossbow system},
+author={Dia Avalur, Srilekha Dantu, Jophy Lin, and Anika Tokala},
+index={\index{Avalur, Dia}\index{Dantu, Srilekha}\index{Lin, Jophy}\index{Tokala, Anika}},
+]{/avalur/avalur}
+
+\procpaper[%
+title={Laws of energy conservation},
+author={Andrew Barone, Alexander Gut, Rishith Kilaru, and Shrikar Swami},
+index={\index{Barone, Andrew}\index{Gut, Alexander}\index{Kilaru, Rishith}\index{Swami, Shrikar}},
+]{/barone/barone}
+
+\procpaper[%
+title={Experimental support for the conservation of energy},
+author={Cole Canada, Stefano D'Agostino, Jason Katz, and Ryan Leung},
+index={\index{Canada, Cole}\index{D'Agostino, Stefano}\index{Katz, Jason}\index{Leung, Ryan}},
+]{/canada/canada}
+
+\procpaper[%
+title={Proving the law of conservation of energy with kinetic and potential energy},
+author={Aryanna Cetrulo, Brady Gorelczenko, Sharone Krasnopolsky, Anton Lavrenov, Timur Neyir, Connor\\{Paskiewicz}, and Sameera Patil},
+index={\index{Cetrulo, Aryanna}\index{Gorelczenko, Brady}\index{Krasnopolsky, Sharone}\index{Lavrenov, Anton}\index{Neyir, Timur}\index{Paskiewicz, Connor}\index{Patil, Sameera}},
+]{/cetrulo/cetrulo}
+
+\procpaper[%
+title={Experimental investigation of energy transfer in a crossbow system},
+author={Andrew Fox, Brandon Heller, Dev Parekh, Joshua Perle, and Clay Stevens},
+index={\index{Fox, Andrew}\index{Heller, Brandon}\index{Parekh, Dev}\index{Perle, Joshua}\index{Stevens, Clay}},
+]{/fox/fox}
+
+\procpaper[%
+title={An analysis on the energy of two types of foam darts},
+author={Vasudevan Govardhanen, Gage Grant, Aidan Dumalagan, Tushaar Akula, Daivik Jajoo, Rohan Avalur, Adrit Sikdar, and Jake Cacciarelli},
+index={\index{Govardhanen, Vasudevan}\index{Grant, Gage}\index{Dumalagan, Aidan}\index{Akula, Tushaar}\index{Jajoo, Daivik}\index{Avalur, Rohan}\index{Sikdar, Adrit}\index{Cacciarelli, Jake}},
+]{/govardhanen/govardhanen}
+
+\procpaper[%
+title={Efficiency of conversion between elastic potential energy in a nerf crossbow to kinetic energy in a nerf dart},
+author={Alexander Gut, Andrew Barone, Rishith Kilaru, and Shrikar Swami},
+index={\index{Gut, Alexander}\index{Barone, Andrew}\index{Kilaru, Rishith}\index{Swami, Shrikar}},
+]{/gut/gut}
+
+\procpaper[%
+title={Examining equality between kinetic energy and potential energy},
+author={Siddharth Kedharnath, Samay Prabhu, Daniel Altman, and Joel D'Souza},
+index={\index{Kedharnath, Siddharth}\index{Prabhu, Samay}\index{Altman, Daniel}\index{D'Souza, Joel}},
+]{/kedharnath/kedharnath}
+
+\procpaper[%
+title={Examining the relationship between conserved and released energy},
+author={Sagarika Yagnyeshwaran, Emily Chen, Andrew Kabatsky, Aleksandra Guimaraes, Vijita Ayyangar, and Nitika Kishore},
+index={\index{Yagnyeshwaran, Sagarika}\index{Chen, Emily}\index{Kabatsky, Andrew}\index{Guimaraes, Aleksandra}\index{Ayyangar, Vijita}\index{Kishore, Nitika}},
+]{/yagnyeshwaran/yagnyeshwaran}
+
+\procpaper[%
+title={Testing Newton's second law with a half-Atwood machine: a meta-analysis},
+author={Alyssa P.~Hacker and Louis Reasoner},
+index={\index{Hacker, Alyssa P.}\index{Reasoner, Louis}},
+]{/hacker/hacker}
+
+
+\backmatter
+%\bibliographystyle{plain}
+%\bibliography{\procbibfile}
+
+\insertindex
+
+% get on even page?!
+%\includepdf[pages=1]{main-confproc-old.pdf}
+\end{document}
