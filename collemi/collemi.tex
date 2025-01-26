@@ -4,6 +4,17 @@
 \author{Victoria Collemi \and Cameron Karabin}
 \date{January 28, 2025}
 
+\newcommand{\keywords}{Girl in Space Club, web design, STEM education, flight suit, HTML, CSS, JavaScript, internship, user interface, user experience, UX design}
+
+\usepackage{hyperref}
+\makeatletter
+\AtBeginDocument{
+\hypersetup{%
+pdftitle={\@title},
+pdfauthor={Victoria Collemi and Cameron Karabin},
+pdfkeywords={\keywords}}}
+\makeatother
+
 \begin{document}
 \maketitle 
 
@@ -12,7 +23,7 @@ Girl in Space Club is a clothing brand established by NASA engineer Sabrina Thom
 \end{abstract}
 
 \begin{IEEEkeywords}
-Girl in Space Club, web design, STEM education, flight suit, HTML, CSS, JavaScript, internship, user interface, user experience, UX design
+\keywords
 \end{IEEEkeywords}
 
 \end{document}

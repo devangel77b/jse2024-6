@@ -5,6 +5,16 @@
 \date{January 28, 2025}
 
 \usepackage{siunitx}
+\newcommand{\keywords}{microsphere, extended release, drug delivery, polymer, emulsion-evaporation, coacervation, internship}
+
+\usepackage{hyperref}
+\makeatletter
+\AtBeginDocument{
+\hypersetup{%
+pdftitle={\@title},
+pdfauthor={\@author},
+pdfkeywords={\keywords}}}
+\makeatother
 
 \begin{document}
 \maketitle 
@@ -16,7 +26,7 @@ At my internship in ACON Pharmaceuticals, I’m testing two fabrication techniqu
 \end{abstract}
 
 \begin{IEEEkeywords}
-microsphere, extended release, drug delivery, polymer, emulsion-evaporation, coacervation, internship
+\keywords
 \end{IEEEkeywords}
 
 \end{document}

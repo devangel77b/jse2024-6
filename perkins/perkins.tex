@@ -4,6 +4,17 @@
 \author{Steven Perkins}
 \date{January 28, 2025}
 
+\newcommand{\keywords}{T\&M Associates, internship, HVAC, heating, ventilation, and air conditioning, mechanical, electrical, and plumbing, MEP, CAD, professional engineer, engineer-in-training, EIT, piping system, computer aided design}
+
+\usepackage{hyperref}
+\makeatletter
+\AtBeginDocument{
+\hypersetup{%
+pdftitle={\@title},
+pdfauthor={\@author},
+pdfkeywords={\keywords}}}
+\makeatother
+
 \begin{document}
 \maketitle 
 
@@ -12,7 +23,7 @@ T\&M Associates is a National Engineering firm headquartered in Middletown, New 
 \end{abstract}
 
 \begin{IEEEkeywords}
-T\&M Associates, internship, HVAC, heating, ventilation, and air conditioning, mechanical, electrical, and plumbing, MEP, CAD, professional engineer, engineer-in-training, EIT, piping system, computer aided design
+\keywords
 \end{IEEEkeywords}
 
 \end{document}

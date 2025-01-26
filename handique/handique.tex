@@ -4,6 +4,17 @@
 \author{Eshan Handique \and Justin Hammer}
 \date{January 28, 2025}
 
+\newcommand{\keywords}{aneurysm, risk factor analysis, detection, SQL}
+
+\usepackage{hyperref}
+\makeatletter
+\AtBeginDocument{
+\hypersetup{%
+pdftitle={\@title},
+pdfauthor={Eshan Handique and Justin Hammer},
+pdfkeywords={\keywords}}}
+\makeatother
+
 \begin{document}
 \maketitle 
 
@@ -12,7 +23,7 @@ Aneurysms are bulges in the blood vessel wall. If they rupture and break, they c
 \end{abstract}
 
 \begin{IEEEkeywords}
-aneurysm, risk factor analysis, detection, SQL
+\keywords
 \end{IEEEkeywords}
 
 \end{document}

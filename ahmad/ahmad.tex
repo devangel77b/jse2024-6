@@ -4,6 +4,17 @@
 \author{Danyal Ahmad}
 \date{January 28, 2025}
 
+\newcommand{\keywords}{diffusion-weighted magnetic resonance imaging, MRI, categorized database, literature review, internship}
+
+\usepackage{hyperref}
+\makeatletter
+\AtBeginDocument{
+\hypersetup{%
+pdftitle={\@title},
+pdfauthor={\@author},
+pdfkeywords={\keywords}}}
+\makeatother
+
 \begin{document}
 \maketitle 
 %\thispagestyle{empty}
@@ -15,7 +26,7 @@ As a research intern under Dr. Jennifer Gutterman, I created a categorized datab
 \end{abstract}
 
 \begin{IEEEkeywords}
-diffusion-weighted magnetic resonance imaging, MRI, categorized database, literature review, internship
+\keywords
 \end{IEEEkeywords}
 
 \end{document}

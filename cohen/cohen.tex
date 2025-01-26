@@ -4,6 +4,17 @@
 \author{Ryan Cohen}
 \date{January 28, 2025}
 
+\newcommand{\keywords}{Matrix New World Engineering, internship, civil engineer, architecture, professional engineer, engineer-in-training, NYC Pier 6 Rehabilitation, Garfield New Elementary School, CAD, structural engineering}
+
+\usepackage{hyperref}
+\makeatletter
+\AtBeginDocument{
+\hypersetup{%
+pdftitle={\@title},
+pdfauthor={\@author},
+pdfkeywords={\keywords}}}
+\makeatother
+
 \begin{document}
 \maketitle 
 
@@ -12,7 +23,7 @@ During my internship at Matrix New World Engineering, an engineering firm based 
 \end{abstract}
 
 \begin{IEEEkeywords}
-Matrix New World Engineering, internship, civil engineer, architecture, professional engineer, engineer-in-training, NYC Pier 6 Rehabilitation, Garfield New Elementary School, CAD, structural engineering
+\keywords
 \end{IEEEkeywords}
 
 \end{document}
