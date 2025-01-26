@@ -1,4 +1,7 @@
-\documentclass[letterpaper,11pt,twoside,electronic,headers=all,papers=countpages,linkcolor=blue,urlcolor=blue]{confproc}
+\documentclass[letterpaper,11pt,electronic,
+papers=final,
+twoside,
+linkcolor=blue,urlcolor=blue]{confproc}
 
 \renewcommand{\procpdfauthor}{Dennis Evangelista, Manalapan High School}
 \renewcommand{\procpdftitle}{Journal of Science \& Engineering}
@@ -43,11 +46,21 @@ Cover blurb text here.%
 \mainmatter
 \setcounter{page}{59}
 
+% Next line is a hack necessary to not waste pages
+\renewcommand{\cleardoublepage}{}
+
+
+
+\session{Internships}
+
 \procpaper[%
 title={Title here},
 author={Danyal Ahmad},
 index={\index{Ahmad, Danyal}},
+npages=1,
 ]{/ahmad/ahmad}
+
+\session{Projects}
 
 \procpaper[%
 title={Title here},

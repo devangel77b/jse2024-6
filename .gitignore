@@ -1,3 +1,6 @@
+*.ilg
+*.ind
+*.nps
 *.idx
 *.toc
 *.npc
